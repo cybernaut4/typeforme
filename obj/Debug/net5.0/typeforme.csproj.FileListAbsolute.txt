@@ -1,0 +1,16 @@
+/home/cybernaut/DotNetDev/typeforme/bin/Debug/net5.0/typeforme
+/home/cybernaut/DotNetDev/typeforme/bin/Debug/net5.0/typeforme.deps.json
+/home/cybernaut/DotNetDev/typeforme/bin/Debug/net5.0/typeforme.runtimeconfig.json
+/home/cybernaut/DotNetDev/typeforme/bin/Debug/net5.0/typeforme.runtimeconfig.dev.json
+/home/cybernaut/DotNetDev/typeforme/bin/Debug/net5.0/typeforme.dll
+/home/cybernaut/DotNetDev/typeforme/bin/Debug/net5.0/ref/typeforme.dll
+/home/cybernaut/DotNetDev/typeforme/bin/Debug/net5.0/typeforme.pdb
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/typeforme.csprojAssemblyReference.cache
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/typeforme.GeneratedMSBuildEditorConfig.editorconfig
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/typeforme.AssemblyInfoInputs.cache
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/typeforme.AssemblyInfo.cs
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/typeforme.csproj.CoreCompileInputs.cache
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/typeforme.dll
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/ref/typeforme.dll
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/typeforme.pdb
+/home/cybernaut/DotNetDev/typeforme/obj/Debug/net5.0/typeforme.genruntimeconfig.cache
