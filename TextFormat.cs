@@ -2,7 +2,7 @@
 
 namespace typeforme
 {
-		class TextFormat : Format
+		class TextFormat
     {
 				public const string bold				= "\x1b[1m";
 				public const string italic			= "\x1b[3m";
@@ -20,6 +20,9 @@ namespace typeforme
 				public const string noStrikethrough	= "\x1b[29m";
 
 				public const string noColor				= "\x1b[39m";
+
+				public const string showText			= "\x1b[28m";
+				public const string hideText			= "\x1b[8m";
 
 				public const string darkGray   	= "\x1b[30m";
 				public const string darkRed    	= "\x1b[31m";

@@ -2,7 +2,7 @@
 
 namespace typeforme
 {
-		class BackgroundFormat : Format
+		class BackgroundFormat
     {
 				public const string noColor	= "\x1b[49m";
 
