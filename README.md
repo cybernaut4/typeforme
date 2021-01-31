@@ -1,9 +1,11 @@
+# Type For Me
+
 **`typeforme`** is a basic typewriter program made for linux-x64 terminal emulators.
 It simulates typing, from left to right, with linear speed and on-the-fly text formatting.
 
 Tested only from Linux environment.
 
-### Features
+## Features
 
 Supports :
 
@@ -13,7 +15,7 @@ Supports :
   * bold, italic, underline, blink, highlight, strikethrough and dual underlining.
 * Ability to change typing speed, and place delays with milliseconds (1000 per second).
 
-### Usage
+## Usage
 
 ```
 typeforme ['text']...
@@ -22,7 +24,7 @@ typeforme [options] ['text']...
 
 Try `--help` for all available options!
 
-#### Example
+### Examples
 
 Basic:
 
@@ -54,15 +56,11 @@ typeforme 'The lazy ' +italic 'dog ' -italic \
 Text coloring:
 
 ```bash
-typeforme 'The lazy ' +color-fg-bright-white 'dog' \
-	+color-fg-bright-red +bold 'rocket jumped' +color-fg-bright-red -bold \
+typeforme 'The lazy ' --color-fg-bright-white 'dog' \
+	--color-fg-bright-red +bold 'rocket jumped' --color-fg-bright-red -bold \
 	'over the silly rabbit.'
 ```
 
-
-
-
-
-###  Download
+## Download
 
 Go to Releases, try latest.
