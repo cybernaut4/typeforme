@@ -1,28 +1,44 @@
+# Type For Me
+
 **`typeforme`** is a basic typewriter program made for linux-x64 terminal emulators.
 It simulates typing, from left to right, with linear speed and on-the-fly text formatting.
 
 Tested only from Linux environment.
 
-### Features
+## Origin
 
-Supports :
+It started as a workaround for subtitling text-to-speech services, as a bash script.
+
+I made a sketch with different tts voices, as in competing between themselves for who was the better english voice, with insults and laughs.
+
+Later on, I decided to step again into C# to learn programming (this time, without Unity), rewriting the tool again to make it more fun!
+
+## Features
 
 * Text and in-line background coloring options (standard 16-color set).
-
 * Text formatting:
   * bold, italic, underline, blink, highlight, strikethrough and dual underlining.
-* Ability to change typing speed, and place delays with milliseconds (1000 per second).
+* Change its typing speed and place delays in milliseconds.
+* Hide text cursor. (**NEW**)
+* Much more! :)
 
-### Usage
+## A note
+
+This is my first personal project I ever upload to a repository, I'm using it as a stepping stone. 
+
+Feature requests from the Issues section, after consideration, will be put in motion once I thoroughly understand how to write clean code.
+
+## Usage
 
 ```
 typeforme ['text']...
+typeforme ['text'] [options]...
 typeforme [options] ['text']...
 ```
 
 Try `--help` for all available options!
 
-#### Example
+### Examples
 
 Basic:
 
@@ -54,15 +70,11 @@ typeforme 'The lazy ' +italic 'dog ' -italic \
 Text coloring:
 
 ```bash
-typeforme 'The lazy ' +color-fg-bright-white 'dog' \
-	+color-fg-bright-red +bold 'rocket jumped' +color-fg-bright-red -bold \
+typeforme 'The lazy ' --color-fg-bright-white 'dog' \
+	--color-fg-bright-red +bold 'rocket jumped' --color-fg-bright-red -bold \
 	'over the silly rabbit.'
 ```
 
-
-
-
-
-###  Download
+## Download
 
 Go to Releases, try latest.
